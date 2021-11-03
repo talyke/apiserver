@@ -12,3 +12,8 @@ const errorHandler = (err, req, res, next) => {
   }
   
   module.exports = errorHandler
+
+// these help if your having API trouble https://openweathermap.org/faq#error
+// 401 wrong API key 
+// 404 could be wrong initialization of API or see the web link
+// 429 means you have made more 60 API calls in a minute!
