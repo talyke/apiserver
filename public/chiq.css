@@ -8,9 +8,9 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  line-height: 1.6;
-  background-color: steelblue;
-  color: #fff;
+  line-height: 1.8;
+  background-color: cornflowerblue;
+  color: snow;
 }
 
 h2 {
@@ -29,16 +29,16 @@ h2 {
 input {
   width: 100%;
   padding: 10px;
-  border: none;
+  border:rgb(41, 50, 58);
   border-bottom: 2px solid #fff;
   background-color: transparent;
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: bold;
+  color: whitesmoke;
+  font-size: 1.8rem;
+  font-weight: bolder;
 }
 
 input:focus {
-  outline: none;
+  outline: default;
 }
 
 input::placeholder {
@@ -57,5 +57,5 @@ button {
 button:hover {
   background-color: #fff;
   color: #000;
-  cursor: pointer;
+  cursor: default;
 }
