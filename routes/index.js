@@ -1,6 +1,7 @@
 const url = require('url')
 const express = require('express')
 const router = express.Router()
+// according to npmjs.com "The leanest and most handsome HTTP client in the Nodelands." /package/needle
 const needle = require('needle')
 const apicache = require('apicache')
 
@@ -22,7 +23,7 @@ router.get('/', cache('2 minutes'), async (req, res, next) => {
     const apiRes = await needle('get', `${API_BASE_URL}?${params}`)
     const data = apiRes.body
 
-    // Log the request to the public API
+    // Log the request to public API
     if (process.env.NODE_ENV !== 'production') {
       console.log(`REQUEST: ${API_BASE_URL}?${params}`)
     }
