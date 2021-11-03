@@ -28,3 +28,5 @@ app.use(cors())
 app.use(errorHandler)
 
 app.listen(PORT, () => console.log(`server running on ${PORT}`))
+
+//rs to refresh easily from terminal
