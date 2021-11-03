@@ -1,0 +1,7 @@
+//vist https://home.openweathermap.org/api_keys
+
+API_BASE_URL = ""
+API_KEY_NAME = ""
+API_KEY_VALUE = ""
+
+don't post your private API keys!!!
