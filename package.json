@@ -1,6 +1,6 @@
 {
   "name": "api-server",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "server to hide public keys, cahing rate limiting,",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,18 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talyke/apiserver.git"
+  },
+  "keywords": [
+    "apis",
+    "servers",
+    "keys"
+  ],
+  "bugs": {
+    "url": "https://github.com/talyke/apiserver/issues"
+  },
+  "homepage": "https://github.com/talyke/apiserver#readme"
 }
