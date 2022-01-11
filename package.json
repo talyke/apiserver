@@ -1,7 +1,7 @@
 {
   "name": "api-server",
   "version": "1.2.0",
-  "description": "server to hide public keys, cahing rate limiting,",
+  "description": "server to hide public keys, cache rate limiting,",
   "main": "index.js",
   "scripts": {
     "start": "node index",
